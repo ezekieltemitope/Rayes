@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name":" Locust Beans",
+        "title": "Elevate your cooking with our premium packaged locust beans, bursting with earthy flavor and protein power.",
+        "price": 5000,
+        "image": "locust bean.jpg"
+    },
+    {
+        "id": 2,
+        "name":" Tigernut",
+        "title": "Experience the rich, buttery taste and crunchy texture of our expertly packaged tiger nuts, perfect for munching.",
+        "price": 250,
+        "image": "Tiger nut.jpg"
+    },
+    {
+        "id": 3,
+        "name":" Rice",
+        "title": "Taste the quality makes with our packaged rice, carefully sourced and packaged to ensure every bite is a delight.",
+        "price": 250,
+        "image": "rice.jpg"
+    },
+    {
+        "id": 4,
+        "name":" White/Yellow Garri",
+        "title": "Stock up on our packaged garri, the perfect pantry staple for making eba, akara, or your favorite garri-based dishes.",
+        "price": 250,
+        "image": "IMG-20241014-WA0030.jpg"
+    },
+    {
+        "id": 5,
+        "name":" Smoked fish",
+        "title": "Sea-riously delicious, our packaged smoked fish is a treasure, <br> expertly smoked to bring out the best in every bite.",
+        "price": 250,
+        "image": "smoked fish.jpg"
+    },
+    {
+        "id": 6,
+        "name":" Smoked Chicken",
+        "title": "Indulge in the rich, velvety flavor of our slow-smoked <br> packaged  meats, tenderly crafted to transport.",
+        "price": 250,
+        "image": "Smoked Chicken.jpg"
+    },
+    {
+        "id": 7,
+        "name":" Palm oil",
+        "title": "Elevate your cooking with our expertly packaged palm oil, <br> perfect for frying, sautéing, or making delicious sauces/soups.",
+        "price": 250,
+        "image": "IMG-20241014-WA0120.jpg"
+    },
+    {
+        "id": 8,
+        "name":" Ponmo",
+        "title": "Experience the quality and convenience of our <br> packaged Ponmo  perfect for grilling, roasting, or sautéing.",
+        "price": 250,
+        "image": "Dried Ponmo.jpg"
+    },
+    {
+        "id": 9,
+        "name":" Crayfish",
+        "title": "Experience the ultimate seafood delight with our packaged crayfish, perfectly packaged for your next culinary adventure.",
+        "price": 250,
+        "image": "Crayfish.jpg"
+    },
+    {
+        "id": 10,
+        "name":" Powdered Pepper",
+        "title": "Take your cooking to the next level with our high-quality <br> packaged pepper - the secret ingredient you've been missing.",
+        "price": 250,
+        "image": "pepper.jpg"
+    }
+
+]

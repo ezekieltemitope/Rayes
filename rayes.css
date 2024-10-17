@@ -17,14 +17,145 @@
   'opsz' 24
 }
 
-
-
 body, html {
   width: 100%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   overflow-x: hidden;
 }
+
+.container{
+  width: 900px;
+  margin: auto;
+  max-width: 90vw;
+  text-align: center;
+  padding-top: 10px;
+  transition: transform .5s;
+}
+
+/* .title{
+  font-size: xx-large;
+} */
+.listProduct .item img{
+  width: 90%;
+}
+.listProduct{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.listProduct .item{
+  background-color: #EEEEE6;
+  padding: 20px;
+  border-radius: 20px;
+}
+.listProduct .item h2{
+  font-weight: 500;
+  font-size: large;
+}
+.listProduct .item p{
+  font-weight: 500;
+  font-size: 15px;
+}
+.listProduct .item .price{
+  letter-spacing: 7px;
+  font-size: small;
+}
+.listProduct .item button{
+  background-color: #353432;
+  color: #eee;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+/* cart */
+.cartTab{
+  width: 400px;
+  background-color: #353432;
+  color: #eee;
+  position: fixed;
+  top: 0;
+  right: -400px;
+  bottom: 0;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+  transition: .5s;
+}
+body.showCart .cartTab{
+  right: 0;
+}
+body.showCart .container{
+  transform: translateX(-250px);
+}
+.cartTab h1{
+  padding: 20px;
+  margin: 0;
+  font-weight: 300;
+}
+.cartTab .btn{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cartTab button{
+  background-color: #E8BC0E;
+  border: none;
+  font-family: Poppins;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cartTab .close{
+  background-color: #eee;
+}
+.listCart .item img{
+  width: 100%;
+}
+.listCart .item{
+  display: grid;
+  grid-template-columns: 70px 150px 50px 1fr;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+}
+.listCart .quantity span{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+  color: #555;
+  cursor: pointer;
+}
+.listCart .quantity span:nth-child(2){
+  background-color: transparent;
+  color: #eee;
+  cursor: auto;
+}
+.listCart .item:nth-child(even){
+  background-color: #eee1;
+}
+.listCart{
+  overflow: auto;
+}
+.listCart::-webkit-scrollbar{
+  width: 0;
+}
+@media only screen and (max-width: 992px) {
+  .listProduct{
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .listProduct{
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 
 
 .col img {
   cursor: pointer;
@@ -50,4 +181,19 @@ body, html {
   display: inline-block;
   width: 500px; 
   margin-right: 50px;
+} */
+
+svg{
+  width: 30px;
 }
+
+
+            /* <div class="col" style="background-color: rgba(255, 81, 0, 0.171); margin-left: 50px; border-radius: 20px;">
+              <img src="locust bean.jpg" alt="" class="img ms-5 mt-3  " style="width: 300px; height: 300px; align-items: center; border-radius: 20px; cursor: pointer; background-repeat: no-repeat; ">
+              <h4 class="ps-4 pt-3">Locust Beans</h4>
+              <p class="ps-4">Elevate your cooking with our premium packaged <br> locust beans, bursting with earthy flavor and protein power. </p>
+              <div style="display: flex;">
+                <p class="ms-4" style="font-weight: 700; font-size: 20px;">₦ 5,000</p>
+                <button class="ms-5 mb-3" style="background-color: rgb(255, 81, 0); border-radius: 10px; border: none;" style="  text-decoration: none; color: white;" onclick="addtocart()">add to cart</button>
+              </div>
+            </div> */
